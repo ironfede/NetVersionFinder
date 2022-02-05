@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetVersionFinder", "NetVersionFinder\NetVersionFinder.csproj", "{532360CA-6527-4A32-B96A-F986E7163A52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetVersionFinder", "NetVersionFinder\NetVersionFinder.csproj", "{532360CA-6527-4A32-B96A-F986E7163A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Info", "Info", "{1FD6EC8D-C8E0-4B66-A8EC-685AE22918A9}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
